@@ -65,3 +65,35 @@ Resultado é 77, pois é feito a alteração do K para 12 e a soma antes da comp
 | 12     | 10  | 54   | TRUE       |
 | 12     | 11  | 65   | TRUE       |
 | 12     | 12  | 77   | FALSE      |
+
+## 4. Descubra os próximos elementos 🕵🏻
+
+### Enunciado exercício 4
+
+Descubra a lógica e complete o próximo elemento:
+
+a) 1, 3, 5, 7, \_\_\_
+
+b) 2, 4, 8, 16, 32, 64, \_\_\_\_
+
+c) 0, 1, 4, 9, 16, 25, 36, \_\_\_\_
+
+d) 4, 16, 36, 64, \_\_\_\_
+
+e) 1, 1, 2, 3, 5, 8, \_\_\_\_
+
+f) 2, 10, 12, 16, 17, 18, 19, \_\_\_\_
+
+### Solução exercício 4
+
+a) 9, pulando de 2 em 2.
+
+b) 128, dobro do número anterior.
+
+c) 49, números inteiros elevado a 2.
+
+d) 100, números inteiros pares elevado a 2.
+
+e) 13, sequência de fibonacci.
+
+f) 200, acredito que seja número que começam a letra "D".
