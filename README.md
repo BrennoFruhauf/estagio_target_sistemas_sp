@@ -97,3 +97,17 @@ d) 100, números inteiros pares elevado a 2.
 e) 13, sequência de fibonacci.
 
 f) 200, acredito que seja número que começam a letra "D".
+
+## 5. Qual lâmpada pertence a qual interruptor 💡
+
+### Enunciado exercício 5
+
+Você está em uma sala com três interruptores, cada um conectado a uma lâmpada em salas diferentes. Você não pode ver as lâmpadas da sala em que está, mas pode ligar e desligar os interruptores quantas vezes quiser. Seu objetivo é descobrir qual interruptor controla qual lâmpada. Como você faria para descobrir, usando apenas duas idas até uma das salas das lâmpadas, qual interruptor controla cada lâmpada?
+
+### Solução exercício 5
+
+Primeiramente, ligaria um interruptor e aguardaria tempo suficiente para a lampada aquecer, após esse tempo, desligaria esse interruptor e ligaria outro, após isso iria em duas das salas verificar as lampadas:
+
+- Se a lampada estivesse ligada, saberia que pertence ao segundo interruptor ligado.
+- Se a lampada estivesse desligada e aquecida, saberia que pertence ao primeiro interruptor ligado.
+- Se a lampa estivesse desligada e fria, saberia que pertence ao interruptor que não foi ligado.
