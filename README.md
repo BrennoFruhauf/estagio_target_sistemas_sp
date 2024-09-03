@@ -25,3 +25,43 @@ IMPORTANTE: Essa string pode ser informada através de qualquer entrada de sua p
 
 [Clique aqui](./exercicios/exercicio2.js) para ver o código.
 ![Exercicio2](./assets/exercicio2.png)
+
+## 3. Identificar o valor final da variável SOMA ➕
+
+### Enunciado exercício 3
+
+Observe o trecho de código abaixo: int INDICE = 12, SOMA = 0, K = 1; enquanto K < INDICE faça { K = K + 1; SOMA = SOMA + K; } imprimir(SOMA);
+
+Ao final do processamento, qual será o valor da variável SOMA?
+
+### Solução exercício 3
+
+Trecho do código fornecido:
+
+```ts
+int INDICE = 12, SOMA = 0, K = 1;
+
+enquanto K < INDICE faça {
+  K = K + 1;
+  SOMA = SOMA + K;
+}
+
+imprimir(SOMA);
+```
+
+Resultado é 77, pois é feito a alteração do K para 12 e a soma antes da comparação de `K < INDICE`.
+
+| INDICE | K   | SOMA | K < INDICE |
+| ------ | --- | ---- | ---------- |
+| 12     | 1   | 0    | TRUE       |
+| 12     | 2   | 2    | TRUE       |
+| 12     | 3   | 5    | TRUE       |
+| 12     | 4   | 9    | TRUE       |
+| 12     | 5   | 14   | TRUE       |
+| 12     | 6   | 20   | TRUE       |
+| 12     | 7   | 27   | TRUE       |
+| 12     | 8   | 35   | TRUE       |
+| 12     | 9   | 44   | TRUE       |
+| 12     | 10  | 54   | TRUE       |
+| 12     | 11  | 65   | TRUE       |
+| 12     | 12  | 77   | FALSE      |
